@@ -1,4 +1,4 @@
-# IIMUN 2025 — Conference Website
+# IIMUN 2025 - Conference Website
 
 Website for Indus International Model United Nations 2025, a student-run MUN conference at Indus International School, Pune.
 
@@ -6,8 +6,8 @@ Website for Indus International Model United Nations 2025, a student-run MUN con
 
 ## Pages
 
-- **Home** — Hero, about, committees, team, schedule, registration, FAQ, sponsors, contact
-- **Case Study** — Design process, problems solved, tech decisions
+- **Home** - Hero, about, committees, team, schedule, registration, FAQ, sponsors, contact
+- **Case Study** - Design process, problems solved, tech decisions
 
 ## Built With
 
@@ -25,7 +25,7 @@ HTML, CSS, JavaScript. No frameworks. Hosted on GitHub Pages.
 └── README.md
 ```
 
-All conference content (committees, team, schedule, FAQ, sponsors) lives in `js/main.js` as data arrays — easy to update for future editions.
+All conference content (committees, team, schedule, FAQ, sponsors) lives in `js/main.js` as data arrays - easy to update for future editions.
 
 ## License
 

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="IIMUN 2025 Website - Case Study by Atharva Ramsinghani">
-  <title>IIMUN 2025 — Case Study | Atharva Ramsinghani</title>
+  <title>IIMUN 2025 - Case Study | Atharva Ramsinghani</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
@@ -194,7 +194,7 @@
   <section class="case-hero">
     <div class="container">
       <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to main site</a>
-      <h1>IIMUN 2025 — Website <span class="gold">Case Study</span></h1>
+      <h1>IIMUN 2025 - Website <span class="gold">Case Study</span></h1>
       <p class="sub">Designing and building a conference website for a student-run Model United Nations event.</p>
       <div class="case-meta">
         <span><i class="fas fa-calendar"></i> January 2025</span>
@@ -209,7 +209,7 @@
 
     <div class="case-section">
       <h2>Goal</h2>
-      <p>The Indus International Model United Nations conference needed a website. Their old one was a basic Google Site that looked outdated, wasn't mobile-friendly, and didn't reflect the quality of the event. The secretariat wanted something professional enough to show parents and school administrators, easy to update, and fast — no bulky frameworks or expensive hosting.</p>
+      <p>The Indus International Model United Nations conference needed a website. Their old one was a basic Google Site that looked outdated, wasn't mobile-friendly, and didn't reflect the quality of the event. The secretariat wanted something professional enough to show parents and school administrators, easy to update, and fast - no bulky frameworks or expensive hosting.</p>
       <p>The primary goals were:</p>
       <ul>
         <li>Present conference information clearly to prospective delegates and their parents</li>
@@ -222,13 +222,13 @@
 
     <div class="case-section">
       <h2>Design Process</h2>
-      <p>I started by looking at other MUN conference websites — both Indian and international. Most fell into two categories: overly complex sites built with page builders that loaded slowly, or minimal single-pagers that lacked information. The best ones had a clear hierarchy, used gold/navy colour schemes (standard for MUN), and put the registration call-to-action front and centre.</p>
+      <p>I started by looking at other MUN conference websites - both Indian and international. Most fell into two categories: overly complex sites built with page builders that loaded slowly, or minimal single-pagers that lacked information. The best ones had a clear hierarchy, used gold/navy colour schemes (standard for MUN), and put the registration call-to-action front and centre.</p>
 
       <h3>Colour & Typography</h3>
-      <p>I chose a deep navy and gold palette — it's the unofficial colour scheme of MUN branding and immediately signals "diplomatic conference." For light mode, I inverted to white backgrounds while keeping gold accents. Playfair Display for headings gives a formal, establishment feel; Inter for body text keeps it readable at small sizes on mobile.</p>
+      <p>I chose a deep navy and gold palette - it's the unofficial colour scheme of MUN branding and immediately signals "diplomatic conference." For light mode, I inverted to white backgrounds while keeping gold accents. Playfair Display for headings gives a formal, establishment feel; Inter for body text keeps it readable at small sizes on mobile.</p>
 
       <h3>Layout Decisions</h3>
-      <p>The hero section needed to do three things simultaneously: show the conference name and date, display a countdown (urgency), and provide a registration button. Below that, the flow is About → Committees → Team → Schedule → Register → FAQ → Contact — a logical progression that answers questions in the order a prospective delegate asks them.</p>
+      <p>The hero section needed to do three things simultaneously: show the conference name and date, display a countdown (urgency), and provide a registration button. Below that, the flow is About > Committees > Team > Schedule > Register > FAQ > Contact - a logical progression that answers questions in the order a prospective delegate asks them.</p>
       <p>The committees section was the hardest to design. Each committee is a card with name, agenda, difficulty, and size. I experimented with a table layout, an accordion, and finally settled on a responsive card grid because it works equally well for 3 committees or 10.</p>
 
       <div class="case-grid">
@@ -250,7 +250,7 @@
         </div>
         <div class="case-card">
           <h4>Problem</h4>
-          <p>The schedule spans 3 days — showing all at once is overwhelming.</p>
+          <p>The schedule spans 3 days - showing all at once is overwhelming.</p>
         </div>
         <div class="case-card">
           <h4>Solution</h4>
@@ -269,7 +269,7 @@
         <span class="tech-badge">Google Fonts</span>
         <span class="tech-badge">GitHub Pages</span>
       </p>
-      <p>No frameworks — zero dependencies. The entire site is three files (plus the case study page). This was deliberate: the site needs to load fast on school Wi-Fi and mobile data. No React build step, no npm install, no CMS to maintain. If a future secretariat member wants to change committee details, they can edit the JS array directly without understanding a framework.</p>
+      <p>No frameworks - zero dependencies. The entire site is three files (plus the case study page). This was deliberate: the site needs to load fast on school Wi-Fi and mobile data. No React build step, no npm install, no CMS to maintain. If a future secretariat member wants to change committee details, they can edit the JS array directly without understanding a framework.</p>
     </div>
 
     <div class="case-section">
@@ -277,8 +277,8 @@
       <ul>
         <li><strong>Theme toggle:</strong> Saves preference to localStorage. Respects system preference on first visit. Transitions smoothly via CSS custom properties.</li>
         <li><strong>Countdown timer:</strong> Pure JS date math. Set to IST (GMT+5:30) for the February 21 start date. Updates every second.</li>
-        <li><strong>Scroll animations:</strong> IntersectionObserver — no scroll event listeners, so performance is good even on low-end devices.</li>
-        <li><strong>Form validation:</strong> Real-time error messages with red borders on invalid fields. Success state replaces the form after submission (no actual POST — this is a static site).</li>
+        <li><strong>Scroll animations:</strong> IntersectionObserver - no scroll event listeners, so performance is good even on low-end devices.</li>
+        <li><strong>Form validation:</strong> Real-time error messages with red borders on invalid fields. Success state replaces the form after submission (no actual POST - this is a static site).</li>
         <li><strong>SEO:</strong> Meta tags, semantic HTML, descriptive alt text on the hero image.</li>
         <li><strong>Accessibility:</strong> Focus-visible outlines, aria-labels on icon buttons, proper heading hierarchy, reduced-motion media query.</li>
       </ul>
@@ -287,13 +287,13 @@
     <div class="case-section">
       <h2>Problems Solved</h2>
       <h3>1. Making a static site feel interactive</h3>
-      <p>A static HTML site risks feeling flat. I added micro-interactions — card hover effects with a light sweep, smooth tab transitions, the countdown ticking, scroll-triggered fade-ins — that give the impression of a more complex application without any backend.</p>
+      <p>A static HTML site risks feeling flat. I added micro-interactions - card hover effects with a light sweep, smooth tab transitions, the countdown ticking, scroll-triggered fade-ins - that give the impression of a more complex application without any backend.</p>
 
       <h3>2. Balancing content density</h3>
-      <p>MUN websites carry a lot of information: 7 committees, 8 team members, 3-day schedule, 10 FAQs. The challenge was fitting everything on one page without it feeling like a wall of text. The solution was progressive disclosure — tabs for schedule days, accordion for FAQs, and cards for committees only show preview content until hover.</p>
+      <p>MUN websites carry a lot of information: 7 committees, 8 team members, 3-day schedule, 10 FAQs. The challenge was fitting everything on one page without it feeling like a wall of text. The solution was progressive disclosure - tabs for schedule days, accordion for FAQs, and cards for committees only show preview content until hover.</p>
 
       <h3>3. Dark/light mode without maintenance burden</h3>
-      <p>This was a CSS architecture problem. Using custom properties for every colour value let me define two themes in ~30 lines each. Every component automatically works in both modes. The alternative — writing separate dark mode overrides for each class — would have been 4x the CSS and fragile.</p>
+      <p>This was a CSS architecture problem. Using custom properties for every colour value let me define two themes in ~30 lines each. Every component automatically works in both modes. The alternative - writing separate dark mode overrides for each class - would have been 4x the CSS and fragile.</p>
 
       <h3>4. Mobile-first without a framework</h3>
       <p>I wrote the desktop layout first, then added breakpoints at 1024px, 768px, and 480px. The key mobile decisions: stack multi-column layouts vertically, make the nav a slide-down drawer, and ensure tap targets are at least 44px (Apple's guideline).</p>
@@ -302,7 +302,7 @@
     <div class="case-section">
       <h2>Final Result</h2>
       <p>The site serves its purpose: delegates and parents can find all conference information in one place, register online, and get a professional impression of the event. It scores 95+ on Lighthouse performance, works offline-ready (the static assets cache well), and takes about 1.2 seconds to load on 3G.</p>
-      <p>The secretariat's favourite feature is the dark mode toggle — it became a talking point during school assemblies. For me, the best outcome is that the team now has a template they can reuse for future editions by just updating the JS data arrays.</p>
+      <p>The secretariat's favourite feature is the dark mode toggle - it became a talking point during school assemblies. For me, the best outcome is that the team now has a template they can reuse for future editions by just updating the JS data arrays.</p>
     </div>
 
   </div>
