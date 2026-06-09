@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Global Diplomatic Summit 2025 - Model United Nations Conference">
+  <title>Global Diplomatic Summit 2025 | GDS MUN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">GDS<span class="logo-year">2025</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#committees" class="nav-link">Committees</a></li>
+        <li><a href="#team" class="nav-link">Team</a></li>
+        <li><a href="#schedule" class="nav-link">Schedule</a></li>
+        <li><a href="#register" class="nav-link">Register</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="badge">International Conference</span>
+      <h1 class="hero-title">Global Diplomatic<br><span class="gold">Summit 2025</span></h1>
+      <p class="hero-sub">Empowering the next generation of global leaders through diplomacy, debate, and decisive action.</p>
+      <div class="hero-btns">
+        <a href="#register" class="btn btn-primary">
+          Register Now <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#about" class="btn btn-secondary">
+          Learn More <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+      <div class="countdown" id="countdown">
+        <div class="countdown-item">
+          <span class="countdown-num" id="days">00</span>
+          <span class="countdown-label">Days</span>
+        </div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-item">
+          <span class="countdown-num" id="hours">00</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-item">
+          <span class="countdown-num" id="minutes">00</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-item">
+          <span class="countdown-num" id="seconds">00</span>
+          <span class="countdown-label">Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About the Conference</span>
+        <h2 class="section-title">Shaping Tomorrow's <span class="gold">Diplomats</span></h2>
+        <div class="divider"></div>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="about-lead">The Global Diplomatic Summit (GDS) is a premier Model United Nations conference that brings together over 800 delegates from 50+ countries to engage in substantive diplomatic discourse.</p>
+          <p class="about-text">Founded in 2018, GDS has grown to become one of the most respected MUN conferences in the world, known for its rigorous academic standards, innovative crisis simulations, and commitment to fostering genuine diplomatic skills among youth.</p>
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-num" data-target="800">0</span>
+              <span class="stat-plus">+</span>
+              <span class="stat-label">Delegates</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="50">0</span>
+              <span class="stat-plus">+</span>
+              <span class="stat-label">Countries</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="12">0</span>
+              <span class="stat-plus">+</span>
+              <span class="stat-label">Committees</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="7">0</span>
+              <span class="stat-plus">+</span>
+              <span class="stat-label">Editions</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="card">
+            <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+            <h3>Our Mission</h3>
+            <p>To cultivate the next generation of global leaders by providing an authentic simulation of international diplomacy that challenges delegates to think critically and collaborate across cultures.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><i class="fas fa-eye"></i></div>
+            <h3>Our Vision</h3>
+            <p>A world where young people are equipped with the diplomatic skills, cultural understanding, and confidence needed to address the most pressing challenges facing our global community.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon"><i class="fas fa-handshake"></i></div>
+            <h3>Our Values</h3>
+            <p>Excellence in debate, integrity in diplomacy, inclusivity in participation, and innovation in crisis resolution.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt-bg" id="committees">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Committees</span>
+        <h2 class="section-title">Explore Our <span class="gold">Committees</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">Choose from a diverse range of committees designed to challenge and inspire delegates of all experience levels.</p>
+      </div>
+      <div class="committees-grid" id="committeesGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Secretariat</span>
+        <h2 class="section-title">Meet the <span class="gold">Secretariat</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">Our dedicated team working to bring you an unforgettable conference experience.</p>
+      </div>
+      <div class="team-grid" id="teamGrid"></div>
+    </div>
+  </section>
+
+  <section class="section alt-bg" id="schedule">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Conference Timeline</span>
+        <h2 class="section-title">Event <span class="gold">Schedule</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">A carefully curated three-day program of debate, diplomacy, and dialogue.</p>
+      </div>
+      <div class="schedule-tabs" id="scheduleTabs"></div>
+      <div class="schedule-content" id="scheduleContent"></div>
+    </div>
+  </section>
+
+  <section class="section" id="register">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Registration</span>
+        <h2 class="section-title">Secure Your <span class="gold">Spot</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">Early bird registration ends March 15th, 2025. Don't miss your chance to be part of this extraordinary diplomatic experience.</p>
+      </div>
+      <div class="register-grid">
+        <div class="pricing card">
+          <h3>Delegate Fee</h3>
+          <div class="price">
+            <span class="price-currency">$</span>
+            <span class="price-value">45</span>
+          </div>
+          <ul class="price-features">
+            <li><i class="fas fa-check"></i> Conference materials</li>
+            <li><i class="fas fa-check"></i> Opening & closing ceremonies</li>
+            <li><i class="fas fa-check"></i> All committee sessions</li>
+            <li><i class="fas fa-check"></i> Certificate of participation</li>
+            <li><i class="fas fa-check"></i> Refreshments & lunch</li>
+            <li><i class="fas fa-check"></i> Social events access</li>
+          </ul>
+        </div>
+        <form class="register-form card" id="registerForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="regName">Full Name <span class="req">*</span></label>
+              <input type="text" id="regName" placeholder="John Doe" required>
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="regEmail">Email <span class="req">*</span></label>
+              <input type="email" id="regEmail" placeholder="john@example.com" required>
+              <span class="form-error"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="regPhone">Phone</label>
+              <input type="tel" id="regPhone" placeholder="+1 (555) 123-4567">
+            </div>
+            <div class="form-group">
+              <label for="regCountry">Institution <span class="req">*</span></label>
+              <input type="text" id="regCountry" placeholder="University / Country" required>
+              <span class="form-error"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="regCommittee">Committee <span class="req">*</span></label>
+            <select id="regCommittee" required>
+              <option value="">Select a committee</option>
+            </select>
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="regExperience">Experience Level</label>
+            <select id="regExperience">
+              <option value="beginner">Beginner (0-2 conferences)</option>
+              <option value="intermediate" selected>Intermediate (3-6)</option>
+              <option value="advanced">Advanced (7+)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="regMessage">Special Requests</label>
+            <textarea id="regMessage" rows="3" placeholder="Dietary requirements, accommodations..."></textarea>
+          </div>
+          <div class="form-group checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="regTerms">
+              <span class="check-box"></span>
+              I agree to the <a href="#" class="gold">terms and conditions</a> <span class="req">*</span>
+            </label>
+            <span class="form-error" id="termsError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Register Now <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="registerSuccess">
+            <i class="fas fa-check-circle"></i>
+            <h3>Registration Submitted!</h3>
+            <p>We'll send a confirmation to your email shortly.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt-bg" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">FAQs</span>
+        <h2 class="section-title">Frequently Asked <span class="gold">Questions</span></h2>
+        <div class="divider"></div>
+      </div>
+      <div class="faq-list" id="faqList"></div>
+    </div>
+  </section>
+
+  <section class="section" id="sponsors">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Sponsors & Partners</span>
+        <h2 class="section-title">Our <span class="gold">Sponsors</span></h2>
+        <div class="divider"></div>
+      </div>
+      <div class="sponsor-grid" id="sponsorGrid"></div>
+    </div>
+  </section>
+
+  <section class="section alt-bg" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Contact <span class="gold">Us</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">Have questions? We'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="card contact-card">
+            <i class="fas fa-envelope"></i>
+            <h4>Email</h4>
+            <a href="mailto:info@gdsmun.org">info@gdsmun.org</a>
+          </div>
+          <div class="card contact-card">
+            <i class="fas fa-phone"></i>
+            <h4>Phone</h4>
+            <a href="tel:+1234567890">+1 (234) 567-890</a>
+          </div>
+          <div class="card contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4>Location</h4>
+            <p>United Nations Headquarters, New York</p>
+          </div>
+          <div class="card contact-social">
+            <h4>Follow Us</h4>
+            <div class="socials">
+              <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+              <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form card" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contactName">Name <span class="req">*</span></label>
+              <input type="text" id="contactName" placeholder="John Doe" required>
+              <span class="form-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Email <span class="req">*</span></label>
+              <input type="email" id="contactEmail" placeholder="john@example.com" required>
+              <span class="form-error"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="contactSubject">Subject <span class="req">*</span></label>
+            <input type="text" id="contactSubject" placeholder="How can we help?" required>
+            <span class="form-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="contactMsg">Message <span class="req">*</span></label>
+            <textarea id="contactMsg" rows="5" placeholder="Write your message..." required></textarea>
+            <span class="form-error"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="contactSuccess">
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent!</h3>
+            <p>We'll get back to you within 24 hours.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">GDS<span>2025</span></div>
+          <p>Global Diplomatic Summit — Empowering the next generation of global leaders through diplomacy, debate, and decisive action.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#committees">Committees</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>For Delegates</h4>
+          <ul>
+            <li><a href="#register">Registration</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-subscribe">
+          <h4>Stay Updated</h4>
+          <p>Subscribe for conference updates.</p>
+          <form class="subscribe" id="subscribeForm">
+            <input type="email" placeholder="Your email" required>
+            <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Global Diplomatic Summit. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
