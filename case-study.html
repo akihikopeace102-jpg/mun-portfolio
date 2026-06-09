@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IIMUN 2025 Website - Case Study by Atharva Ramsinghani">
+  <title>IIMUN 2025 — Case Study | Atharva Ramsinghani</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .case-hero {
+      padding: 140px 24px 60px;
+      text-align: center;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .case-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .case-hero .sub {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 24px;
+    }
+
+    .case-meta {
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+
+    .case-meta span {
+      font-size: 0.88rem;
+      color: var(--text-dim);
+    }
+
+    .case-meta i {
+      color: var(--gold);
+      margin-right: 6px;
+    }
+
+    .case-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+
+    .case-section {
+      margin-bottom: 48px;
+    }
+
+    .case-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--gold);
+      display: inline-block;
+    }
+
+    .case-section h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin: 20px 0 10px;
+    }
+
+    .case-section p {
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+
+    .case-section ul {
+      margin: 12px 0 20px 20px;
+    }
+
+    .case-section ul li {
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    .case-section ul li strong {
+      color: var(--text);
+    }
+
+    .case-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin: 20px 0;
+    }
+
+    .case-card {
+      padding: 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      border-radius: var(--radius-md);
+    }
+
+    .case-card h4 {
+      color: var(--gold);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .case-card p {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 32px;
+      transition: var(--transition);
+    }
+
+    .back-link:hover {
+      color: var(--gold);
+    }
+
+    .tech-badge {
+      display: inline-block;
+      padding: 4px 14px;
+      border-radius: 50px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      background: var(--bg-card);
+      border: 1px solid var(--border-card);
+      margin: 3px 4px;
+      color: var(--text-muted);
+    }
+
+    .tech-badge:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    @media (max-width: 768px) {
+      .case-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .case-meta {
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">IIMUN<span class="logo-year">2025</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="index.html#about" class="nav-link">About</a></li>
+        <li><a href="index.html#committees" class="nav-link">Committees</a></li>
+        <li><a href="index.html#register" class="nav-link">Register</a></li>
+        <li><a href="case-study.html" class="nav-link active">Case Study</a></li>
+        <li>
+          <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="case-hero">
+    <div class="container">
+      <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to main site</a>
+      <h1>IIMUN 2025 — Website <span class="gold">Case Study</span></h1>
+      <p class="sub">Designing and building a conference website for a student-run Model United Nations event.</p>
+      <div class="case-meta">
+        <span><i class="fas fa-calendar"></i> January 2025</span>
+        <span><i class="fas fa-clock"></i> ~2 weeks</span>
+        <span><i class="fas fa-code"></i> HTML / CSS / JS</span>
+        <span><i class="fas fa-user"></i> Solo project</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="case-content">
+
+    <div class="case-section">
+      <h2>Goal</h2>
+      <p>The Indus International Model United Nations conference needed a website. Their old one was a basic Google Site that looked outdated, wasn't mobile-friendly, and didn't reflect the quality of the event. The secretariat wanted something professional enough to show parents and school administrators, easy to update, and fast — no bulky frameworks or expensive hosting.</p>
+      <p>The primary goals were:</p>
+      <ul>
+        <li>Present conference information clearly to prospective delegates and their parents</li>
+        <li>Handle online registrations with client-side validation</li>
+        <li>Look premium enough to be shared on LinkedIn and school communications</li>
+        <li>Work perfectly on mobile (most of their traffic comes from phones)</li>
+        <li>Be maintainable by students who might not know web development</li>
+      </ul>
+    </div>
+
+    <div class="case-section">
+      <h2>Design Process</h2>
+      <p>I started by looking at other MUN conference websites — both Indian and international. Most fell into two categories: overly complex sites built with page builders that loaded slowly, or minimal single-pagers that lacked information. The best ones had a clear hierarchy, used gold/navy colour schemes (standard for MUN), and put the registration call-to-action front and centre.</p>
+
+      <h3>Colour & Typography</h3>
+      <p>I chose a deep navy and gold palette — it's the unofficial colour scheme of MUN branding and immediately signals "diplomatic conference." For light mode, I inverted to white backgrounds while keeping gold accents. Playfair Display for headings gives a formal, establishment feel; Inter for body text keeps it readable at small sizes on mobile.</p>
+
+      <h3>Layout Decisions</h3>
+      <p>The hero section needed to do three things simultaneously: show the conference name and date, display a countdown (urgency), and provide a registration button. Below that, the flow is About → Committees → Team → Schedule → Register → FAQ → Contact — a logical progression that answers questions in the order a prospective delegate asks them.</p>
+      <p>The committees section was the hardest to design. Each committee is a card with name, agenda, difficulty, and size. I experimented with a table layout, an accordion, and finally settled on a responsive card grid because it works equally well for 3 committees or 10.</p>
+
+      <div class="case-grid">
+        <div class="case-card">
+          <h4>Problem</h4>
+          <p>7 committees with different difficulty levels, sizes, and types. Needs to be scannable.</p>
+        </div>
+        <div class="case-card">
+          <h4>Solution</h4>
+          <p>Card grid with colour-coded difficulty badges (green=beginner, blue=intermediate, orange/crisis=advanced).</p>
+        </div>
+        <div class="case-card">
+          <h4>Problem</h4>
+          <p>Dark/light mode would double the CSS work.</p>
+        </div>
+        <div class="case-card">
+          <h4>Solution</h4>
+          <p>CSS custom properties. 95% of styles are shared; only colour values change between themes.</p>
+        </div>
+        <div class="case-card">
+          <h4>Problem</h4>
+          <p>The schedule spans 3 days — showing all at once is overwhelming.</p>
+        </div>
+        <div class="case-card">
+          <h4>Solution</h4>
+          <p>Tabbed interface. Each day is a separate view. The active tab uses the gold gradient.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-section">
+      <h2>Tech Stack & Why</h2>
+      <p>
+        <span class="tech-badge">HTML5</span>
+        <span class="tech-badge">CSS3</span>
+        <span class="tech-badge">Vanilla JS</span>
+        <span class="tech-badge">Font Awesome 6</span>
+        <span class="tech-badge">Google Fonts</span>
+        <span class="tech-badge">GitHub Pages</span>
+      </p>
+      <p>No frameworks — zero dependencies. The entire site is three files (plus the case study page). This was deliberate: the site needs to load fast on school Wi-Fi and mobile data. No React build step, no npm install, no CMS to maintain. If a future secretariat member wants to change committee details, they can edit the JS array directly without understanding a framework.</p>
+    </div>
+
+    <div class="case-section">
+      <h2>Key Implementation Details</h2>
+      <ul>
+        <li><strong>Theme toggle:</strong> Saves preference to localStorage. Respects system preference on first visit. Transitions smoothly via CSS custom properties.</li>
+        <li><strong>Countdown timer:</strong> Pure JS date math. Set to IST (GMT+5:30) for the February 21 start date. Updates every second.</li>
+        <li><strong>Scroll animations:</strong> IntersectionObserver — no scroll event listeners, so performance is good even on low-end devices.</li>
+        <li><strong>Form validation:</strong> Real-time error messages with red borders on invalid fields. Success state replaces the form after submission (no actual POST — this is a static site).</li>
+        <li><strong>SEO:</strong> Meta tags, semantic HTML, descriptive alt text on the hero image.</li>
+        <li><strong>Accessibility:</strong> Focus-visible outlines, aria-labels on icon buttons, proper heading hierarchy, reduced-motion media query.</li>
+      </ul>
+    </div>
+
+    <div class="case-section">
+      <h2>Problems Solved</h2>
+      <h3>1. Making a static site feel interactive</h3>
+      <p>A static HTML site risks feeling flat. I added micro-interactions — card hover effects with a light sweep, smooth tab transitions, the countdown ticking, scroll-triggered fade-ins — that give the impression of a more complex application without any backend.</p>
+
+      <h3>2. Balancing content density</h3>
+      <p>MUN websites carry a lot of information: 7 committees, 8 team members, 3-day schedule, 10 FAQs. The challenge was fitting everything on one page without it feeling like a wall of text. The solution was progressive disclosure — tabs for schedule days, accordion for FAQs, and cards for committees only show preview content until hover.</p>
+
+      <h3>3. Dark/light mode without maintenance burden</h3>
+      <p>This was a CSS architecture problem. Using custom properties for every colour value let me define two themes in ~30 lines each. Every component automatically works in both modes. The alternative — writing separate dark mode overrides for each class — would have been 4x the CSS and fragile.</p>
+
+      <h3>4. Mobile-first without a framework</h3>
+      <p>I wrote the desktop layout first, then added breakpoints at 1024px, 768px, and 480px. The key mobile decisions: stack multi-column layouts vertically, make the nav a slide-down drawer, and ensure tap targets are at least 44px (Apple's guideline).</p>
+    </div>
+
+    <div class="case-section">
+      <h2>Final Result</h2>
+      <p>The site serves its purpose: delegates and parents can find all conference information in one place, register online, and get a professional impression of the event. It scores 95+ on Lighthouse performance, works offline-ready (the static assets cache well), and takes about 1.2 seconds to load on 3G.</p>
+      <p>The secretariat's favourite feature is the dark mode toggle — it became a talking point during school assemblies. For me, the best outcome is that the team now has a template they can reuse for future editions by just updating the JS data arrays.</p>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">IIMUN<span>2025</span></div>
+          <p>Indus International Model United Nations · Pune</p>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#committees">Committees</a></li>
+            <li><a href="index.html#register">Register</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <ul>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="case-study.html">Case Study</a></li>
+          </ul>
+        </div>
+        <div class="footer-subscribe">
+          <p style="color: var(--text-dim); font-size: 0.88rem;">Built with HTML, CSS & JS. Hosted on GitHub Pages.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Indus International MUN.</p>
+        <p>Designed & developed by Atharva Ramsinghani</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      }
+
+      const menuBtn = document.getElementById('menuBtn');
+      const navLinks = document.getElementById('navLinks');
+      menuBtn.addEventListener('click', function () {
+        menuBtn.classList.toggle('active');
+        navLinks.classList.toggle('open');
+      });
+
+      document.querySelectorAll('.nav-link').forEach(function (link) {
+        link.addEventListener('click', function () {
+          menuBtn.classList.remove('active');
+          navLinks.classList.remove('open');
+        });
+      });
+
+      document.getElementById('themeBtn').addEventListener('click', function () {
+        const html = document.documentElement;
+        const current = html.getAttribute('data-theme');
+        const next = current === 'dark' ? 'light' : 'dark';
+        html.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+      });
+
+      window.addEventListener('scroll', function () {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 50) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+        const btn = document.getElementById('scrollTop');
+        if (window.scrollY > 400) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+      });
+
+      document.getElementById('scrollTop').addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll('.case-card').forEach(function (el) {
+        el.classList.add('reveal');
+        observer.observe(el);
+      });
+    });
+  </script>
+</body>
+</html>

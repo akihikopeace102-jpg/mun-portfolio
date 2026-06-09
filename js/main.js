@@ -1,157 +1,149 @@
 const committees = [
   {
     name: 'United Nations Security Council (UNSC)',
-    agenda: 'Addressing International Peace & Security: Cyber Warfare & Emerging Threats',
+    agenda: 'Situation in the South China Sea: Maritime Disputes & Regional Stability',
     level: 'Advanced',
     lvl: 'advanced',
-    size: '15-25',
+    size: '20-25',
     type: 'Crisis Committee'
   },
   {
     name: 'World Health Organization (WHO)',
-    agenda: 'Global Health Security: Pandemic Preparedness & Equitable Vaccine Distribution',
+    agenda: 'Mental Health Policy in Developing Nations: Access, Awareness & Affordability',
     level: 'Intermediate',
     lvl: 'intermediate',
-    size: '25-35',
+    size: '25-30',
     type: 'General Assembly'
   },
   {
     name: 'United Nations Human Rights Council (UNHRC)',
-    agenda: 'Protection of Civil Rights in the Digital Age: Privacy, Surveillance & Freedom of Expression',
+    agenda: 'Protection of Minorities in South Asia: Religious & Ethnic Safeguards',
     level: 'Intermediate',
     lvl: 'intermediate',
-    size: '20-30',
+    size: '25-30',
     type: 'Human Rights'
   },
   {
     name: 'Disarmament & International Security (DISEC)',
-    agenda: 'Nuclear Non-Proliferation & Disarmament in an Era of Great Power Competition',
+    agenda: 'Illicit Arms Trafficking in the Indian Ocean Region',
     level: 'Advanced',
     lvl: 'advanced',
-    size: '25-35',
+    size: '20-25',
     type: 'General Assembly'
   },
   {
     name: 'United Nations Environment Programme (UNEP)',
-    agenda: 'Climate Action & Sustainability: Accelerating the Green Transition',
+    agenda: 'Plastic Waste Management in Coastal Cities: A Sustainable Roadmap',
     level: 'Beginner',
     lvl: 'beginner',
-    size: '30-40',
+    size: '25-30',
     type: 'General Assembly'
   },
   {
-    name: 'Social, Humanitarian & Cultural Committee (SOCHUM)',
-    agenda: 'Refugee Crisis Management: Durable Solutions for Displaced Populations',
-    level: 'Beginner',
-    lvl: 'beginner',
-    size: '30-40',
-    type: 'General Assembly'
+    name: 'Lok Sabha - Indian Parliament',
+    agenda: 'The National Digital Privacy Bill, 2025: Data Protection & Civil Liberties',
+    level: 'Advanced',
+    lvl: 'advanced',
+    size: '30-35',
+    type: 'Indian Parliament'
   },
   {
-    name: 'Joint Crisis Committee: Middle East',
-    agenda: 'Escalating Tensions in the Persian Gulf: A Multi-Crisis Simulation',
-    level: 'Advanced',
-    lvl: 'crisis',
-    size: '20-30',
-    type: 'Crisis Committee'
-  },
-  {
-    name: 'Historical Security Council: 1991',
-    agenda: 'The Gulf War: Coalition Building & Post-Conflict Reconstruction',
-    level: 'Advanced',
-    lvl: 'crisis',
+    name: 'International Press (IP)',
+    agenda: 'Freedom of the Press in Emerging Democracies: Ethics & Accountability',
+    level: 'Intermediate',
+    lvl: 'intermediate',
     size: '15-20',
-    type: 'Historical Crisis'
+    type: 'Media Committee'
   }
 ];
 
 const team = [
   {
-    name: 'Alexander Hartwell',
+    name: 'Aarav Mehta',
     role: 'Secretary-General',
-    bio: 'Fourth-year International Relations. Former Director of UNSC at HMUN 2024.',
-    initials: 'AH'
+    bio: 'Class 12 student and three-time MUNer. Previously served as Director of UNSC at DSMUN 2024 and led delegations at HMUN 2024.',
+    initials: 'AM'
   },
   {
-    name: 'Victoria Chen',
+    name: 'Ananya Sharma',
     role: 'Deputy Secretary-General',
-    bio: 'Third-year Law & Diplomacy. Led secretariat at GDS 2024.',
-    initials: 'VC'
-  },
-  {
-    name: 'Marcus Okonkwo',
-    role: 'Under-Secretary-General, Committees',
-    bio: 'Fourth-year Political Science. Oversaw 12 committees at NMUN 2024.',
-    initials: 'MO'
-  },
-  {
-    name: 'Sophia Laurent',
-    role: 'Under-Secretary-General, Administration',
-    bio: 'Third-year International Business. Manages logistics and delegate affairs.',
-    initials: 'SL'
-  },
-  {
-    name: 'James Park',
-    role: 'Director of Public Relations',
-    bio: 'Fourth-year Communications. Led marketing campaigns reaching 50K+ delegates.',
-    initials: 'JP'
-  },
-  {
-    name: 'Amara Singh',
-    role: 'Director of Technology',
-    bio: 'Third-year Computer Science. Builds digital infrastructure for conference platforms.',
+    bio: 'Class 11 with a passion for international law. Managed committee affairs for two previous editions of IIMUN.',
     initials: 'AS'
   },
   {
-    name: 'Lucas Fernández',
-    role: 'Director of Events',
-    bio: 'Fourth-year Hospitality Management. Designs social events and networking experiences.',
-    initials: 'LF'
+    name: 'Arjun Singh',
+    role: 'Under-Secretary-General, Committees',
+    bio: 'Class 12. Oversaw the expansion from 4 to 7 committees this year. Specialises in crisis simulations.',
+    initials: 'AS'
   },
   {
-    name: 'Zara Williams',
+    name: 'Priya Patel',
+    role: 'Under-Secretary-General, Administration',
+    bio: 'Class 11. Handles venue coordination, delegate registration, and logistics for 250+ participants.',
+    initials: 'PP'
+  },
+  {
+    name: 'Rohan Desai',
+    role: 'Director of Public Relations',
+    bio: 'Class 12. Built the conference brand across 30+ schools in Pune and Mumbai. Manages social media and outreach.',
+    initials: 'RD'
+  },
+  {
+    name: 'Kavya Nair',
+    role: 'Director of Technology',
+    bio: 'Class 11. Designed the conference website and digital infrastructure. Leads the tech team of 5 students.',
+    initials: 'KN'
+  },
+  {
+    name: 'Vikram Joshi',
+    role: 'Director of Events',
+    bio: 'Class 12. Organised the Cultural Night and delegate socials. Previously led events at IIMUN 2024.',
+    initials: 'VJ'
+  },
+  {
+    name: 'Zara Khan',
     role: 'Director of Delegate Affairs',
-    bio: 'Third-year International Studies. Handles delegate welfare and support.',
-    initials: 'ZW'
+    bio: 'Class 11. First point of contact for all delegate queries. Runs the mentorship programme for first-timers.',
+    initials: 'ZK'
   }
 ];
 
 const schedule = [
   {
     day: 1,
-    label: 'Day 1 \u2014 May 16',
+    label: 'Day 1 \u2014 February 21',
     events: [
-      { time: '08:00 - 09:30', title: 'Registration & Check-In', desc: 'Delegate check-in, material distribution, and badge collection at the main lobby.' },
-      { time: '09:30 - 10:30', title: 'Opening Ceremony', desc: 'Keynote address by the Secretary-General of the United Nations (via video message).' },
-      { time: '10:30 - 11:00', title: 'Coffee Break & Networking', desc: 'Meet fellow delegates from around the world over refreshments.' },
-      { time: '11:00 - 13:00', title: 'Committee Session I', desc: 'First committee session: Rules of procedure, roll call, and opening statements.' },
-      { time: '13:00 - 14:30', title: 'Lunch & Side Events', desc: 'Sponsored lunch with panel discussion on careers in international diplomacy.' },
-      { time: '14:30 - 17:00', title: 'Committee Session II', desc: 'Substantive debate, caucusing, and draft resolution submissions.' },
-      { time: '19:00 - 21:00', title: 'Welcome Reception', desc: 'Formal networking reception at the Grand Ballroom. Business attire required.' }
+      { time: '08:00 - 09:00', title: 'Registration & Check-In', desc: 'Delegate check-in, kit distribution, and badge collection at the school auditorium foyer.' },
+      { time: '09:00 - 10:30', title: 'Opening Ceremony', desc: 'Welcome address by the Principal, keynote by the Secretary-General, and flag ceremony.' },
+      { time: '10:30 - 11:00', title: 'Tea Break', desc: 'Networking over refreshments in the quadrangle.' },
+      { time: '11:00 - 13:00', title: 'Committee Session I', desc: 'Roll call, rules of procedure briefing, and opening statements by delegates.' },
+      { time: '13:00 - 14:00', title: 'Lunch', desc: 'Buffet lunch served at the school cafeteria.' },
+      { time: '14:00 - 17:00', title: 'Committee Session II', desc: 'Substantive debate, moderated caucus, and resolution drafting.' },
+      { time: '17:00', title: 'Wrap-Up', desc: 'End of Day 1. Committee notices and homework assignments.' }
     ]
   },
   {
     day: 2,
-    label: 'Day 2 \u2014 May 17',
+    label: 'Day 2 \u2014 February 22',
     events: [
-      { time: '08:00 - 09:00', title: 'Delegate Breakfast', desc: 'Continental breakfast available for all delegates.' },
-      { time: '09:00 - 12:00', title: 'Committee Session III', desc: 'Continued debate, amendment procedures, and informal caucusing.' },
-      { time: '10:30 - 11:00', title: 'Crisis Update I', desc: 'First crisis scenario introduced in crisis committees.' },
-      { time: '12:00 - 13:30', title: 'Lunch & Keynote', desc: 'Guest speaker: Former UN Ambassador on the future of multilateralism.' },
-      { time: '13:30 - 16:30', title: 'Committee Session IV', desc: 'Final lobbying, voting bloc formation, and resolution voting.' },
-      { time: '16:30 - 17:30', title: 'Crisis Update II', desc: 'Second crisis scenario and committee responses.' },
-      { time: '19:00 - 22:00', title: 'Cultural Night & Gala', desc: 'Cultural performances, international food fair, and the GDS Gala Dinner.' }
+      { time: '08:00 - 09:00', title: 'Arrival & Breakfast', desc: 'Morning tea and refreshments available.' },
+      { time: '09:00 - 11:00', title: 'Committee Session III', desc: 'Continued debate, amendment proposals, and informal caucusing.' },
+      { time: '11:00 - 11:30', title: 'Crisis Update', desc: 'Breaking crisis scenario introduced in UNSC and Lok Sabha committees.' },
+      { time: '11:30 - 13:00', title: 'Committee Session IV', desc: 'Crisis response, voting bloc formation, and draft resolution finalisation.' },
+      { time: '13:00 - 14:00', title: 'Lunch', desc: 'Lunch break with inter-committee networking.' },
+      { time: '14:00 - 16:00', title: 'Committee Session V', desc: 'Final lobbying, resolution voting, and committee closing remarks.' },
+      { time: '18:00 - 21:00', title: 'Cultural Night & DJ Night', desc: 'Student performances, food stalls, and music. Casual dress. Venue: School grounds.' }
     ]
   },
   {
     day: 3,
-    label: 'Day 3 \u2014 May 18',
+    label: 'Day 3 \u2014 February 23',
     events: [
-      { time: '08:00 - 09:00', title: 'Delegate Breakfast', desc: 'Morning refreshments before the final day.' },
-      { time: '09:00 - 11:30', title: 'Committee Session V', desc: 'Final resolutions, amendment voting, and committee closing statements.' },
-      { time: '11:30 - 13:00', title: 'General Assembly', desc: 'Plenary session: Selected resolutions presented to the General Assembly.' },
-      { time: '13:00 - 14:30', title: 'Farewell Lunch', desc: 'Final lunch together with committee members and secretariat.' },
-      { time: '14:30 - 16:30', title: 'Closing Ceremony', desc: 'Award presentations, closing remarks by the Secretary-General, and conference wrap-up.' }
+      { time: '08:00 - 09:00', title: 'Arrival', desc: 'Final day check-in.' },
+      { time: '09:00 - 11:00', title: 'General Assembly', desc: 'Selected resolutions presented to the General Assembly for a final vote.' },
+      { time: '11:00 - 11:30', title: 'Tea Break', desc: 'Short break before the closing ceremony.' },
+      { time: '11:30 - 13:30', title: 'Closing Ceremony & Awards', desc: 'Award presentations for Best Delegate, High Commendation, Special Mention, and Best Delegation. Valedictory address by the Secretary-General.' },
+      { time: '13:30', title: 'Conference Ends', desc: 'Group photos and departures.' }
     ]
   }
 ];
@@ -159,47 +151,55 @@ const schedule = [
 const faqs = [
   {
     q: 'What is a Model United Nations conference?',
-    a: 'Model United Nations (MUN) is an educational simulation where students step into the shoes of diplomats representing countries or organizations in UN committees. Participants debate global issues, draft resolutions, and practice negotiation and public speaking skills.'
+    a: 'MUN is a simulation where students represent countries or organisations in UN-style committees. Participants debate global issues, write resolutions, and practise diplomacy. No prior experience is required \u2014 we provide full training.'
   },
   {
-    q: 'Do I need prior MUN experience to participate?',
-    a: 'Not at all! GDS welcomes delegates of all experience levels. We offer beginner-friendly committees with detailed guides, mentorship programs, and training workshops before the conference.'
+    q: 'Who can participate?',
+    a: 'Students from Grades 9 to 12, from any school. There is no minimum MUN experience required. We have beginner, intermediate, and advanced committees to suit all levels.'
   },
   {
-    q: 'What is the dress code for the conference?',
-    a: 'Western business formal attire is required for all committee sessions and official events. This includes suits, blazers, dress shirts, ties, formal dresses, and professional footwear.'
+    q: 'What is the dress code?',
+    a: 'Western business formal \u2014 suits, blazers, shirts with ties, formal trousers, and closed shoes for boys. Salwar suits, sarees, formal dresses, or blazers for girls. No jeans, sneakers, or casual wear during committee sessions.'
   },
   {
-    q: 'What is included in the registration fee?',
-    a: 'The registration fee covers conference materials, access to all committee sessions, opening and closing ceremonies, certificate of participation, refreshments during breaks, lunches on all three days, and entry to all social events including the Gala Dinner.'
+    q: 'What is the registration fee and what does it cover?',
+    a: 'The delegate fee is \u20b9450 per person. It covers conference kit, certificate of participation, lunch on all three days, tea breaks, and entry to the Cultural Night. Transportation and accommodation are not included.'
   },
   {
-    q: 'Can I get a refund if I can no longer attend?',
-    a: 'Full refunds are available up to 30 days before the conference. A 50% refund is available between 15-30 days before the event. No refunds can be processed within 14 days of the conference start date.'
+    q: 'How do I register?',
+    a: 'Fill out the registration form on this website. Individual and delegation registrations are both accepted. Spot registrations will not be available \u2014 register before February 5, 2025.'
   },
   {
-    q: 'How are country allocations determined?',
-    a: 'Country allocations are handled on a first-come, first-served basis during registration. Delegates may request up to three preferred countries or assignments.'
+    q: 'Can I get a refund?',
+    a: 'Full refunds are available up to 15 days before the conference. A 50% refund is available between 7-14 days. No refunds within 7 days of the event.'
   },
   {
-    q: 'Will there be awards at the conference?',
-    a: 'Yes! Awards include Best Delegate, Outstanding Delegate, Honorable Mention, Best Position Paper, and Best Small Delegation. Awards are determined by dais members.'
+    q: 'How are committee allocations decided?',
+    a: 'Allocations are first-come, first-served. You can list up to three committee preferences on the registration form. We do our best to accommodate your first choice while ensuring balanced committee sizes.'
   },
   {
-    q: 'Is accommodation provided for out-of-town delegates?',
-    a: 'We have partnered with several hotels near the venue to offer discounted rates for GDS delegates. Please check the Resources section after registering for details.'
+    q: 'Will there be awards?',
+    a: 'Yes. Awards include Best Delegate, High Commendation, Special Mention, and Best Delegation (for the school with the best overall performance). All participants receive a participation certificate.'
+  },
+  {
+    q: 'Is accommodation available for out-of-town delegates?',
+    a: 'We can provide a list of nearby hotels and hostels. Please contact us at info@iimun.in for recommendations. Day scholars from Pune schools do not need accommodation.'
+  },
+  {
+    q: 'Who do I contact for more questions?',
+    a: 'Email us at info@iimun.in or call +91 98765 43210. You can also reach out to Zara Khan (Director of Delegate Affairs) through the school office.'
   }
 ];
 
 const sponsors = [
-  { name: 'United Nations Foundation', type: 'Partner Organization', icon: 'fa-globe' },
-  { name: 'Oxford University Press', type: 'Academic Partner', icon: 'fa-book-open' },
-  { name: 'Deutsche Bank', type: 'Platinum Sponsor', icon: 'fa-building-columns' },
-  { name: 'The Diplomat Magazine', type: 'Media Partner', icon: 'fa-newspaper' },
-  { name: 'Google.org', type: 'Technology Partner', icon: 'fa-google' },
-  { name: 'Model UN Association', type: 'Supporting Organization', icon: 'fa-handshake' },
-  { name: 'Coca-Cola Foundation', type: 'Gold Sponsor', icon: 'fa-star' },
-  { name: 'British Council', type: 'Cultural Partner', icon: 'fa-landmark' }
+  { name: 'United Nations Information Centre', type: 'Knowledge Partner', icon: 'fa-globe' },
+  { name: 'The Indian Express', type: 'Media Partner', icon: 'fa-newspaper' },
+  { name: 'HDFC Bank', type: 'Platinum Sponsor', icon: 'fa-building-columns' },
+  { name: 'Rotary Club of Pune', type: 'Community Partner', icon: 'fa-handshake' },
+  { name: 'Google India', type: 'Technology Partner', icon: 'fa-google' },
+  { name: 'Tata Consultancy Services', type: 'Gold Sponsor', icon: 'fa-star' },
+  { name: 'British Council India', type: 'Cultural Partner', icon: 'fa-landmark' },
+  { name: 'Teach For India', type: 'Education Partner', icon: 'fa-graduation-cap' }
 ];
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -263,7 +263,7 @@ function setupTheme() {
 }
 
 function setupCountdown() {
-  const target = new Date('May 16, 2025 08:00:00 GMT-0400');
+  const target = new Date('February 21, 2025 08:00:00 GMT+0530');
 
   function update() {
     const now = new Date();
@@ -455,7 +455,7 @@ function setupRegistration() {
     const fields = [
       { el: document.getElementById('regName'), err: 'Please enter your full name' },
       { el: document.getElementById('regEmail'), err: 'Please enter a valid email', test: function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); } },
-      { el: document.getElementById('regCountry'), err: 'Please enter your institution' },
+      { el: document.getElementById('regCountry'), err: 'Please enter your school name' },
       { el: document.getElementById('regCommittee'), err: 'Please select a committee', test: function (v) { return v !== ''; } }
     ];
 

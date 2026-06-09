@@ -1,43 +1,31 @@
-# Global Diplomatic Summit 2025 — MUN Conference Website
+# IIMUN 2025 — Conference Website
 
-A fully responsive event website for a Model United Nations conference, built with vanilla HTML, CSS, and JavaScript.
+Website for Indus International Model United Nations 2025, a student-run MUN conference at Indus International School, Pune.
 
-🔗 **Live site:** https://akihikopeace102-jpg.github.io/mun-portfolio
+**Live site:** https://akihikopeace102-jpg.github.io/mun-portfolio
 
-## Features
+## Pages
 
-- Dark / light mode toggle
-- Live countdown timer to conference date
-- Committee directory (8 councils with agendas & difficulty levels)
-- Secretariat team profile cards
-- Multi-day schedule with tab switching
-- Registration form with client-side validation
-- FAQ accordion
-- Sponsor showcase grid
-- Contact form + social links
-- Scroll animations and smooth transitions
-- Fully responsive for desktop, tablet, and mobile
+- **Home** — Hero, about, committees, team, schedule, registration, FAQ, sponsors, contact
+- **Case Study** — Design process, problems solved, tech decisions
 
-## Tech Stack
+## Built With
 
-- HTML5
-- CSS3 (custom properties, grid, flexbox, animations)
-- Vanilla JavaScript (DOM manipulation, Intersection Observer)
-- Font Awesome 6
-- Google Fonts (Inter + Playfair Display)
+HTML, CSS, JavaScript. No frameworks. Hosted on GitHub Pages.
 
-## Deployment
+## Structure
 
-Hosted on GitHub Pages. Push to `main` branch to deploy.
+```
+├── index.html
+├── case-study.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+└── README.md
+```
 
-## What I Learned
-
-- Building a multi-section layout from scratch
-- CSS custom properties for theme switching
-- Form validation patterns
-- Dynamic content rendering with JavaScript
-- Mobile-first responsive design
-- Git workflow and GitHub Pages deployment
+All conference content (committees, team, schedule, FAQ, sponsors) lives in `js/main.js` as data arrays — easy to update for future editions.
 
 ## License
 
